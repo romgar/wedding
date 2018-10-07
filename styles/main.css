@@ -9032,7 +9032,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/home-img.jpg") no-repeat center center;
+  background: url("../images/aurelie_romain_header.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
@@ -9052,7 +9052,7 @@ body {
 .ww-home-page .ww-wedding-announcement .ww-announcement-container {
   max-width: 600px;
   text-align: center;
-  margin-left: 0;
+  margin-right: 0;
   z-index: 999;
 }
 
