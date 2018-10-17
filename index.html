@@ -332,7 +332,7 @@
         $('#rsvp-form').submit(function(event) {
           event.preventDefault();
           // Get all the forms elements and their values in one step
-          var values = $(this).serialize();
+          var values = $(this).serializeArray();
           rsvpApiCall(values);
         });
       });
