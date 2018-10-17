@@ -251,7 +251,7 @@
     <div class="row ww-rsvp-form">
       <div class="col-md-10">
         <div class="card-body">
-          <form action="https://formspree.io/example@email.com" method="POST">
+          <form id="rsvp-form" action="" method="POST">
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
@@ -323,9 +323,19 @@
     <script src="js/ekko-lightbox.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/simplyCountdown.js"></script>
+    <script src="scripts/rsvpAPI.js"></script>
     <script>
       var d = new Date('2019-07-27T14:00:00');
       simplyCountdownByDate('.simply-countdown-one', { date: d });
+
+      $( document ).ready(function() {
+        $('#rsvp-form').submit(function(event) {
+          event.preventDefault();
+          // Get all the forms elements and their values in one step
+          var values = $(this).serialize();
+          rsvpApiCall(values);
+        });
+      });
     </script>
   </body>
 </html>
