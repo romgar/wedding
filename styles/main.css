@@ -9061,7 +9061,7 @@ body {
 }
 
 .ww-home-page .ww-wedding-announcement img {
-  max-height: 350px;
+  max-height: 300px;
   width: auto;
 }
 
@@ -9073,7 +9073,11 @@ body {
 }
 
 .ww-home-page .ww-wedding-announcement .ww-couple-name {
-  font-size: 70px;
+  font-size: 80px;
+}
+
+.ww-home-page .ww-wedding-announcement .ww-announcement-date {
+  font-size: 3.5rem;
 }
 
 @media (max-width: 576px) {
@@ -9286,4 +9290,9 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff;
+}
+
+/* introduction section */
+.introduction-text {
+  font-size: 1.2rem;
 }
