@@ -442,36 +442,39 @@
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
-                  <label for="name-input">Your Name*</label>
+                  <label for="name-input">Nom*</label>
                   <input class="form-control" id="name-input" type="text" name="name" required="required"/>
                 </div>
               </div>
               <div class="col-md-6 pb-3">
                 <div class="form-group">
-                  <label for="email-input">Your Email*</label>
-                  <input class="form-control" id="email-input" type="email" name="_replyto" required="required"/>
+                  <label for="email-input">Email*</label>
+                  <input class="form-control" id="email-input" type="email" name="email" required="required"/>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
-                  <label for="guest-input">Number of Guests</label>
-                  <select class="form-control" id="guest-input" name="guest">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
+                  <label for="guest-input">Nombre d'adultes</label>
+                  <input class="form-control" id="name-input" type="text" name="adult-info" required="required"/>
                 </div>
               </div>
+              <div class="col md-6 pb-3">
+                <div class="form-group">
+                  <label for="guest-input">Nombre d'enfants (< 18 ans) et âge:</label>
+                  <input class="form-control" id="name-input" type="text" name="kid-info" required="required" placeholder="Example: 2 (6 et 8 ans)"/>
+                </div>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-md-6 pb-3">
                 <div class="form-group">
-                  <label for="events-input">I am Attending</label>
-                  <select class="form-control" id="events-input" name="events">
-                    <option value="all-event">All Events</option>
-                    <option value="wedding-ceremony">Wedding ceremony</option>
-                    <option value="reception-party">Reception Party</option>
+                  <label for="events-input">Présent à:</label>
+                  <select class="form-control" id="events-input" name="event-attendance">
+                    <option value="all-event">Mairie et réception</option>
+                    <option value="wedding-ceremony">Mairie</option>
+                    <option value="reception-party">Réception</option>
                   </select>
                 </div>
               </div>
@@ -479,7 +482,7 @@
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <label for="message-input">Your Message</label>
+                  <label for="message-input">Informations complémentaires (régime alimentaire particulier, questions sur l'événement, ...):</label>
                   <textarea class="form-control" id="message-input" name="message" rows="4"></textarea>
                 </div>
               </div>
