@@ -9296,3 +9296,24 @@ body {
 .introduction-text {
   font-size: 1.2rem;
 }
+
+.tourism-icon {
+  text-align: center;
+  padding: 1em;
+}
+
+.tourism-icon img {
+  max-width: 20%;
+}
+
+.row.where-to-sleep {
+  text-align: center;
+}
+
+.visit-place {
+  padding: 1em;
+}
+
+.visit-place .distance {
+  font-style: italic;
+}
