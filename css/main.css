@@ -9202,6 +9202,10 @@ img.featured {
   color: white;
 }
 
+.ww-couple-friends .secondary .card-body .h5 {
+  min-height: 57px;
+}
+
 /* Photo Gallery Style */
 .ww-photo-gallery .ww-category-filter a {
   display: inline-block;
