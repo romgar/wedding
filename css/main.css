@@ -9344,6 +9344,6 @@ body {
   font-style: italic;
 }
 
-.ww-tourism .row:not(:last-child) {
+.ww-tourism-item:not(:last-child) {
   padding-bottom: 3em;
 }
