@@ -9087,10 +9087,13 @@ body {
 }
 
 #couple img {
+  max-width: 70%;
+}
+
+img.featured {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  max-width: 70%;
 }
 
 #couple p {
@@ -9344,6 +9347,16 @@ body {
   font-style: italic;
 }
 
+.visit-place img {
+  max-width: 100%;
+}
+
+.visit-place p.first-line-description {
+  margin-top: 1rem;
+}
+
 .ww-tourism-item:not(:last-child) {
   padding-bottom: 3em;
 }
+
+
