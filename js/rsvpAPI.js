@@ -10,7 +10,7 @@
      * @param values
      * @returns
      */
-    rsvpApiCall = function (values) {
+    rsvpApiCall = function (values, successFn, errorFn) {
         $.ajax({
             url: apiURL,
             type: 'POST',
@@ -18,10 +18,10 @@
             contentType: 'application/json',
             data: JSON.stringify(values),
             success: function (data) {
-                console.info(data);
+                successFn();
             },
-            failure: function(error) {
-                console.error(error);
+            error: function(error, cause) {
+                errorFn();
             }
         });
     };

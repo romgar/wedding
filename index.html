@@ -527,6 +527,14 @@
               </div>
             </div>
           </form>
+          <div class="form-validation-message">
+            <div class="message success" style="display: none;">
+              Merci pour votre réponse! On se voit au plus tard en juillet!!!
+            </div>
+            <div class="message error" style="display: none;">
+              Le formulaire n'a pas pu être envoyé correctement. Si le problème persiste, contactez Romain pour plus d'information.
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -554,12 +562,22 @@
       var d = new Date('2019-07-27T14:00:00');
       simplyCountdownByDate('.simply-countdown-one', { date: d });
 
+      function successFn () {
+        $('.form-validation-message .error').hide();
+        $('.form-validation-message .success').show();
+        $('#rsvp-form').hide();
+      }
+      function errorFn () {
+        $('.form-validation-message .success').hide();
+        $('.form-validation-message .error').show();
+      }
+
       $( document ).ready(function() {
         $('#rsvp-form').submit(function(event) {
           event.preventDefault();
           // Get all the forms elements and their values in one step
           var values = $(this).serializeArray();
-          rsvpApiCall(values);
+          rsvpApiCall(values, successFn, errorFn);
         });
       });
     </script>
