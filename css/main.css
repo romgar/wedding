@@ -371,23 +371,23 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h6, .h6 {
@@ -9087,10 +9087,17 @@ body {
 }
 
 #couple img {
+  max-width: 70%;
+}
+
+img.featured {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  max-width: 70%;
+}
+
+#couple p {
+  text-align: justify;
 }
 
 .ww-home-page:before {
@@ -9158,6 +9165,16 @@ body {
 
 .ww-wedding-event img {
   max-width: 60%;
+}
+
+.ww-wedding-event span, .ww-wedding-event p {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .ww-wedding-event img {
+    float: right;
+  }
 }
 
 /* Couple Friends Style  */
@@ -9292,7 +9309,7 @@ body {
 }
 
 .ww-section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .btn-primary {
@@ -9309,16 +9326,23 @@ body {
 }
 
 .tourism-icon {
-  text-align: center;
   padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid gray;
 }
 
 .tourism-icon img {
   max-width: 20%;
 }
 
-.row.where-to-sleep {
-  text-align: center;
+.where-to-sleep h2 {
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid gray;
+}
+
+.where-to-sleep ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 .visit-place {
@@ -9328,4 +9352,17 @@ body {
 .visit-place .distance {
   font-style: italic;
 }
+
+.visit-place img {
+  max-width: 100%;
+}
+
+.visit-place p.first-line-description {
+  margin-top: 1rem;
+}
+
+.ww-tourism-item:not(:last-child) {
+  padding-bottom: 3em;
+}
+
 
