@@ -9335,8 +9335,14 @@ img.featured {
   max-width: 20%;
 }
 
-.row.where-to-sleep {
-  text-align: center;
+.where-to-sleep h2 {
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid gray;
+}
+
+.where-to-sleep ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 .visit-place {
