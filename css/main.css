@@ -9168,6 +9168,12 @@ body {
   font-size: 1.3rem;
 }
 
+@media (min-width: 768px) {
+  .ww-wedding-event img {
+    float: right;
+  }
+}
+
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
   padding: 40px 0;
