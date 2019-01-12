@@ -9377,4 +9377,23 @@ img.featured {
   padding-bottom: 3em;
 }
 
+.form-validation-message {
+  margin: 2em 0;
+  font-size: 1.3rem;
+}
 
+.form-validation-message .message {
+  padding: 1em;
+}
+
+.form-validation-message .success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+}
+
+.form-validation-message .error {
+  color: #a94442;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+}
