@@ -6190,6 +6190,10 @@ button.bg-danger:focus {
   background-color: #f8f9fa !important;
 }
 
+.bg-light-2 {
+  background-color: #f8f9fa !important;
+}
+
 .bg-blue {
   background-color: #5b949f !important;
 }
@@ -9192,6 +9196,10 @@ img.featured {
 
 .ww-couple-friends .carousel-indicators .active {
   background-color: #f58a77;
+}
+
+.ww-couple-friends h1 {
+  color: white;
 }
 
 /* Photo Gallery Style */
