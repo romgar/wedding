@@ -9249,12 +9249,12 @@ img.featured {
 }
 
 .ww-rsvp-detail .ww-rsvp-form {
-  padding-left: 20%;
+  padding-left: 15%;
 }
 
 @media (max-width: 768px) {
   .ww-rsvp-detail .ww-rsvp-form {
-    padding-left: 10%;
+    padding-left: 3%;
   }
 }
 
