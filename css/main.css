@@ -9042,7 +9042,7 @@ body {
 .ww-home-page {
   background: url("../images/aurelie_romain_header.jpg") no-repeat center center;
   background-size: cover;
-  background-position: 70%;
+  background-position: 30%;
   height: 100vh;
   min-height: 480px;
 }

@@ -10,6 +10,10 @@ $(document).ready(function() {
 // Smooth scroll for links with hashes
 $("a.smooth-scroll").click(function(event) {
   // On-page links
+
+  // Allows the right scrolling depending on the device viewport.
+  var scrollPadding = window.innerWidth < 992 ? 320: 50;
+
   if (
     location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") &&
     location.hostname == this.hostname
@@ -23,7 +27,7 @@ $("a.smooth-scroll").click(function(event) {
       event.preventDefault();
       $("html, body").animate(
         {
-          scrollTop: target.offset().top - 50
+          scrollTop: target.offset().top - scrollPadding
         },
         1000,
         function() {
