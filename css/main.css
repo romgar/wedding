@@ -9397,3 +9397,8 @@ img.featured {
   background-color: #f2dede;
   border: 1px solid #ebccd1;
 }
+
+label.required-field::after {
+  content: '*';
+  color: red;
+}
