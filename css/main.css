@@ -9411,7 +9411,16 @@ label.required-field::after {
   width: 35%;
 }
 
-.bg-blue a {
+.gift-description .btn {
+  font-size: 1.2rem;
+  color: #5b949f;
+  background-color: white;
+  border-color: #5b949f;
+  margin-bottom: 15px;
+}
+
+.gift-description .btn:hover {
   color: white;
-  text-decoration: underline;
+  background-color: #5b949f;
+  border-color: white;
 }
