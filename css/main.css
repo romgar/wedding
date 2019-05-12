@@ -9402,3 +9402,25 @@ label.required-field::after {
   content: '*';
   color: red;
 }
+
+.ww-gifts h1, .ww-gifts p {
+  color: white;
+}
+
+.ww-gifts .gift-icon svg {
+  width: 35%;
+}
+
+.gift-description .btn {
+  font-size: 1.2rem;
+  color: #5b949f;
+  background-color: white;
+  border-color: #5b949f;
+  margin-bottom: 15px;
+}
+
+.gift-description .btn:hover {
+  color: white;
+  background-color: #5b949f;
+  border-color: white;
+}
