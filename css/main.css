@@ -9402,3 +9402,16 @@ label.required-field::after {
   content: '*';
   color: red;
 }
+
+.ww-gifts h1, .ww-gifts p {
+  color: white;
+}
+
+.ww-gifts .gift-icon svg {
+  width: 35%;
+}
+
+.bg-blue a {
+  color: white;
+  text-decoration: underline;
+}
